@@ -31,4 +31,4 @@ In order to successfully execute this project in terms of hardware, ensure that 
 3. For the voltmeter mode, a 10K potentiometer is used. All three pins are used, with the top connected to VDD, bottom connected to GND, and the middle connected to the respective GPIO (AN5).
 4. For the ohmmeter mode, a 10K potentiometer is also used. Here only two pins are used, the middle pin and one of the other pins. The middle pin is connected to GPIO AN11 and forms a voltage divider configuration with a reference resistor as shown in "Midterm-PulseMeter v2.pdf".
 
-In terms of running the program, build the project, download it to the PIC, and ensure that the program is currently "playing".
+In terms of running the program, build the project, download it to the PIC, and ensure that the program is currently "playing". In settings, ensure you power the PIC with atleast 3.25 V. To actually power they system, you can use either a power sypply or your laptop. When programming the PIC, for newer laptops, you can also use the "low-voltage programming mode" option.
