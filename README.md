@@ -24,6 +24,11 @@ The technologies used include:
 
 ## Launch
 
-In order to successfully execute this project in terms of hardware, ensure that your hardware is set up according to the diagram in the "Midterm-PulseMeter v2.pdf" document. In addition to this diagram, another pin was used. Ensure that you also connect pin RA6 to RB15 using a 1K resistor. 
+In order to successfully execute this project in terms of hardware, ensure that your hardware is:
+
+1. Set up according to the diagram in the "Midterm-PulseMeter v2.pdf" document. 
+2. In addition to this diagram, another pin was used. Ensure that you also connect pin RA6 to RB15 using a 1K resistor. 
+3. For the voltmeter mode, a 10K potentiometer is used. All three pins are used, with the top connected to VDD, bottom connected to GND, and the middle connected to the respective GPIO (AN5).
+4. For the ohmmeter mode, a 10K potentiometer is also used. Here only two pins are used, the middle pin and one of the other pins. The middle pin is connected to GPIO AN11 and forms a voltage divider configuration with a reference resistor as shown in "Midterm-PulseMeter v2.pdf".
 
 In terms of running the program, build the project, downlaod it to the PIC, and ensure that the program is currently "playing".
