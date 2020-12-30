@@ -17,7 +17,6 @@ void IOinit()
    AD1PCFGbits.PCFG5 = 0;  // configure AN5 as an analog pin - voltmeter mode
    AD1PCFGbits.PCFG11 = 0; // configure AN11 as an analog pin - ohmmeter mode
    AD1PCFGbits.PCFG12 = 0; // configure AN12 as an analog pin - pulse meter mode
-   AD1PCFGbits.PCFG4 = 1;  // configure AN4/RA2 as a digital pin
    
    TRISAbits.TRISA2 = 1; // make GPIO RA2 a digital input
    CNPU2bits.CN30PUE = 1; // enable pull up resistor on RA2/CN30
