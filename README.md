@@ -22,6 +22,14 @@ The technologies used include:
 2. PIC24F16KA101 MCU
 3. ANSI C
 
+## Solution
+
+The following solution was implemented:
+
+1.	When PB1 was pressed, the system was in voltmeter mode, where the ADC was used to sample the analog voltage at a GPIO pin. To display the voltage on the terminal, the digital voltage was converted back to analog using the resolution voltage.
+2.	When PB2 was pressed, the system was in ohmmeter mode, where the voltage across the resistance under test was measured (one of the resistors in a voltage divider configuration, with the other being a known resistance) using the ADC. This was displayed on the terminal using the voltage divider relationship. 
+3.	When PB3 was pressed, the system was in pulse-meter mode. The frequency was determined by starting and stopping a timer from a falling edge to a rising edge on the pulse signal. The amplitude was determined by using the ADC to sample the pulse at the rising edge. These were displayed on the terminal using a combination of the methods for the voltmeter and ohmmeter modes. 
+
 ## Launch
 
 In order to successfully execute this project in terms of hardware, ensure that your hardware is:
