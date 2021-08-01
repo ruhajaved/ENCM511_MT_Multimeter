@@ -49,3 +49,6 @@ Possible improvements for this project include:
 1.	Generate the pulse from an external source, rather than the MCU itself. This is desired because with the current setup as the frequency of the pulse changes, so can the base clock. This affects the timing of the system, which in turn will affect the accuracy of the pulse-meter. 
 2.	Use CN interrupts with flag bits, instead of while loops, to detect if a given PB is pressed. This is better in terms of software implementation and organization.
 3.	As mechanical pushbuttons are used, implement functionality that filters out debounce effects.
+
+## Notes
+1. You can find a project demonstration here: https://youtu.be/8Ny1QnSW_yY.
