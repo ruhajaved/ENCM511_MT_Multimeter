@@ -51,4 +51,5 @@ Possible improvements for this project include:
 3.	As mechanical pushbuttons are used, implement functionality that filters out debounce effects.
 
 ## Notes
-1. You can find a project demonstration here: https://youtu.be/8Ny1QnSW_yY.
+
+N/A
